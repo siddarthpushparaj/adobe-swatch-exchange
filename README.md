@@ -12,6 +12,7 @@ The following software is **required** for  to run:
 
 ## Examples
 
+	```php
 	<?php
 	use Ase\Color\Hex;
 	use Ase\Generator;
@@ -26,6 +27,7 @@ The following software is **required** for  to run:
 	));
 
 	file_put_contents('palette.ase', $ase->makePalette());
+	```
 
 
 ## Installation
