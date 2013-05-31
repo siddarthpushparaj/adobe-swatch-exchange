@@ -35,37 +35,48 @@ Depending on your needs, there are a few different ways you can install Adobe Sw
 ### Bundle with Composer
 To add Adobe Swatch Exchange Generator as a [Composer](https://github.com/composer/composer) dependency in your `composer.json` file:
 
-	{
-		"require": {
-			"skyzyx/adobe-swatch-encoder": ">=1.0"
-		}
+```json
+{
+	"require": {
+		"skyzyx/adobe-swatch-encoder": ">=1.0"
 	}
+}
+```
 
 ### Install source from GitHub
 To install the source code for Adobe Swatch Exchange Generator:
 
-	git clone git://github.com/skyzyx/adobe-swatch-encoder.git
-	cd adobe-swatch-encoder
-	wget --quiet http://getcomposer.org/composer.phar
-	php composer.phar install -o
+```sh
+git clone git://github.com/skyzyx/adobe-swatch-encoder.git
+cd adobe-swatch-encoder
+wget --quiet http://getcomposer.org/composer.phar
+php composer.phar install -o
+```
 
 ### Install source from zip/tarball
 Alternatively, you can fetch a [tarball](https://github.com/skyzyx/adobe-swatch-encoder/tarball/master) or [zipball](https://github.com/skyzyx/adobe-swatch-encoder/zipball/master):
 
-    $ curl https://github.com/skyzyx/adobe-swatch-encoder/tarball/master | tar xzv
-    (or)
-    $ wget https://github.com/skyzyx/adobe-swatch-encoder/tarball/master -O - | tar xzv
+```sh
+curl https://github.com/skyzyx/adobe-swatch-encoder/tarball/master | tar xzv
+```
+```sh
+wget https://github.com/skyzyx/adobe-swatch-encoder/tarball/master -O - | tar xzv
+```
 
 ### Using a Class Loader
 If you're using a class loader (e.g., [Symfony Class Loader](https://github.com/symfony/ClassLoader)) for [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)-style class loading:
 
-	$loader->registerNamespace('Ase', 'path/to/vendor/Ase/src');
+```php
+$loader->registerNamespace('Ase', 'path/to/vendor/Ase/src');
+```
 
 
 ## Contributing
 To view the list of existing [contributors](/skyzyx/adobe-swatch-encoder/contributors), run the following command from the Terminal:
 
-	git shortlog -sne --no-merges
+```sh
+git shortlog -sne --no-merges
+```
 
 ### How?
 Here's the process for contributing:
