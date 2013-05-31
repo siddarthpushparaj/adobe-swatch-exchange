@@ -12,21 +12,21 @@ The following software is **required** for  to run:
 
 ## Examples
 
-	```php
-	use Ase\Color\Hex;
-	use Ase\Generator;
-	use Ase\Palette\Palette;
+```php
+use Ase\Color\Hex;
+use Ase\Generator;
+use Ase\Palette\Palette;
 
-	$ase = new Generator(array(
-		new Palette('I got the blues', array(
-			new Hex('One',   '0033ff'),
-			new Hex('Two',   '#03c'),
-			new Hex('Three', '#0066cc'),
-		)),
-	));
+$ase = new Generator(array(
+	new Palette('I got the blues', array(
+		new Hex('One',   '0033ff'),
+		new Hex('Two',   '#03c'),
+		new Hex('Three', '#0066cc'),
+	)),
+));
 
-	file_put_contents('palette.ase', $ase->makePalette());
-	```
+file_put_contents('palette.ase', $ase->makePalette());
+```
 
 
 ## Installation

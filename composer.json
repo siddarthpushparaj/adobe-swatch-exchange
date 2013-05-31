@@ -1,0 +1,22 @@
+{
+	"name": "skyzyx/adobe-swatch-exchange",
+	"description": "Generates ASE swatch files for use with Adobe products.",
+	"keywords": ["adobe", "photoshop", "illustrator", "color", "swatch"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ryan Parman",
+			"homepage": "http://ryanparman.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"ext-mbstring": "*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Ase": "src/"
+		}
+	}
+}
