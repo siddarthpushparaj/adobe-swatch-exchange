@@ -3,7 +3,6 @@
 Programmatically generates Adobe `.ase` files for use with the Adobe suite of applications.
 
 ## Requirements
-### Required
 The following software is **required** for  to run:
 
 * [PHP](http://php.net) 5.3.2+
