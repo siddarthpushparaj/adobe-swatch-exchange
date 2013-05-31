@@ -13,7 +13,6 @@ The following software is **required** for  to run:
 ## Examples
 
 	```php
-	<?php
 	use Ase\Color\Hex;
 	use Ase\Generator;
 	use Ase\Palette\Palette;
