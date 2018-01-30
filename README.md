@@ -32,6 +32,12 @@ file_put_contents('palette.ase', $ase->makePalette());
 Depending on your needs, there are a few different ways you can install Adobe Swatch Exchange Generator:
 
 ### Bundle with Composer
+
+## Install 
+
+composer require skyzyx/adobe-swatch-exchange
+
+--- Below not working / *
 To add Adobe Swatch Exchange Generator as a [Composer](https://github.com/composer/composer) dependency in your `composer.json` file:
 
 ```json
@@ -40,7 +46,7 @@ To add Adobe Swatch Exchange Generator as a [Composer](https://github.com/compos
 		"skyzyx/adobe-swatch-encoder": ">=1.0"
 	}
 }
-```
+```*/
 
 ### Install source from GitHub
 To install the source code for Adobe Swatch Exchange Generator:
