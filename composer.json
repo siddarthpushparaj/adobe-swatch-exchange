@@ -1,5 +1,5 @@
 {
-	"name": "skyzyx/adobe-swatch-exchange",
+	"name": "siddarthpushparaj/adobe-swatch-exchange",
 	"description": "Generates ASE swatch files for use with Adobe products.",
 	"keywords": ["adobe", "photoshop", "illustrator", "color", "swatch"],
 	"type": "library",
